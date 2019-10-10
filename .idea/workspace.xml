@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff03b064-ba70-4997-af5e-a5169717f361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jscsPlugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mern-stack-boilerplate-master.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jscsrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/Root.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Header/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Search/Results/Results.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Search/Results/results.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Search/Search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Search/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/pages/addBrewery/addBrewery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/pages/addBrewery/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/controllers/addbrewery-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/controllers/bieren-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/controllers/distance-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/models/dbConnect/dbConnect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/models/detail-model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/models/detail-schema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/models/product-model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/models/product-schema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/models/redis-model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/routes/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +105,7 @@
       <workItem from="1570579913184" duration="1758000" />
       <workItem from="1570581699291" duration="3497000" />
       <workItem from="1570704766518" duration="11749000" />
-      <workItem from="1570719667764" duration="717000" />
+      <workItem from="1570719667764" duration="1733000" />
     </task>
     <servers />
   </component>
