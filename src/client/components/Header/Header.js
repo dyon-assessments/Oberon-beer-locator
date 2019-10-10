@@ -2,7 +2,7 @@ import React from "react";
 import './app.css';
 import { FaBars } from 'react-icons/fa';
 import './app.css';
-import { Link, BrowserRouter as Router, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -49,7 +49,7 @@ export default class Header extends React.Component {
     this.setState({
       dropdown: this.state.dropdownToggle ? { height: '0vh', opacity: '0' } : {
         height: '100vh',
-        opacity: '1'
+        opacity: '1',
       },
       dropdownToggle: !this.state.dropdownToggle,
       sticky: this.state.dropdownToggle ? { height: 300 - (this.state.position / 1.2) } : { height: '0px' },
@@ -75,7 +75,7 @@ export default class Header extends React.Component {
             <div style={this.state.dropdown} className={'dropdown'}>
               <Link style={this.state.button} className={'button-menu'} to="/">Home</Link>
               <Link style={this.state.button} className={'button-menu'}
-                    to="/addbrewery">About</Link>
+                    to="/addbrewery">Voeg Toe</Link>
             </div>
           </header>
         </div>
