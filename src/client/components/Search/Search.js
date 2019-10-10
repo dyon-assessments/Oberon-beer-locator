@@ -71,7 +71,7 @@ class Search extends React.Component {
     return (
       <div>
         <div style={this.state.searchbar} className={'search-container'}>
-          <input onKeyDown={(event)=> event.keyCode === 13 ? this.handleSubmit() : false} className={'searchBar'} placeholder={'Uw locatie'} ref={this.locatie}/>
+          <input onKeyDown={(event)=> event.keyCode === 13 ? this.handleSubmit() : event.stopPropagation() } className={'searchBar'} placeholder={'Uw locatie'} ref={this.locatie}/>
           <select className={'select-radius'} ref={this.straal}>
             <option value="999999">Alle</option>
             <option value="25">25km</option>

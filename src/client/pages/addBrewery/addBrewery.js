@@ -17,7 +17,6 @@ class addBrewery extends React.Component {
   }
 
   handleSubmit() {
-    let self = this
     axios({
       method: 'post',
       url: '/api/addbrewery',
@@ -33,7 +32,8 @@ class addBrewery extends React.Component {
     })
     .catch(function (error) {
       console.log(error);
-    });
+    }
+    );
     this.setState({ redirect: true }, () => console.log(this.state));
   }
 

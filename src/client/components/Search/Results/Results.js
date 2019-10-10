@@ -48,7 +48,7 @@ class Results extends React.Component {
       if (this.state.beerListState[index]) {
         beerContent = this.state.beerListState[index].map((i, index) => {
           return (
-            <span>
+            <span key={index}>
             <div>{i.name}</div>
               <div className={'dropdown-details-box'}>
                 <div>{`Alcohol: ${i.alcohol} %`}</div>
