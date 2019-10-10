@@ -48,5 +48,7 @@ eslint,
 - used MongoDB instead of SQL
 - used only local Redis caching
 - used no prop-types
+- no form validation
+- no unit tests
 "# Oberon-beer-locator" 
 "# Oberon-beer-locator" 
