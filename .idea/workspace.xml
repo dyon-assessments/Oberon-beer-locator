@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff03b064-ba70-4997-af5e-a5169717f361" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jscsPlugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mern-stack-boilerplate-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jscsrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/Root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/Header/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/Search/Results/Results.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/Search/Results/results.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/Search/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/Search/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/addBrewery/addBrewery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/addBrewery/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/controllers/addbrewery-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/controllers/bieren-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/controllers/distance-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/models/dbConnect/dbConnect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/models/detail-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/models/detail-schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/models/product-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/models/product-schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/models/redis-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/routes/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1RcIj8IW6zuxZzz7MKZX0ttcxEI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mern-stack-boilerplate-master\src\client\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\test\oberon\src" />
+      <recent name="C:\oberon\src\client\pages\addBrewery" />
+      <recent name="C:\oberon\src\client\pages" />
+      <recent name="C:\oberon\src\client" />
+      <recent name="C:\oberon\src\client\components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff03b064-ba70-4997-af5e-a5169717f361" name="Default Changelist" comment="" />
+      <created>1569931064301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569931064301</updated>
+      <workItem from="1569931065373" duration="2963000" />
+      <workItem from="1569960116246" duration="196000" />
+      <workItem from="1569961301521" duration="14780000" />
+      <workItem from="1570045945879" duration="13291000" />
+      <workItem from="1570094854402" duration="4280000" />
+      <workItem from="1570103185109" duration="4092000" />
+      <workItem from="1570123809491" duration="22800000" />
+      <workItem from="1570173830417" duration="2079000" />
+      <workItem from="1570196813290" duration="1688000" />
+      <workItem from="1570198659087" duration="22827000" />
+      <workItem from="1570274545058" duration="2160000" />
+      <workItem from="1570285417865" duration="64000" />
+      <workItem from="1570286883761" duration="10921000" />
+      <workItem from="1570302203794" duration="899000" />
+      <workItem from="1570303195543" duration="1776000" />
+      <workItem from="1570305132392" duration="712000" />
+      <workItem from="1570305907939" duration="852000" />
+      <workItem from="1570306797899" duration="1057000" />
+      <workItem from="1570308024189" duration="116206000" />
+      <workItem from="1570578562517" duration="1311000" />
+      <workItem from="1570579913184" duration="1758000" />
+      <workItem from="1570581699291" duration="3497000" />
+      <workItem from="1570704766518" duration="11749000" />
+      <workItem from="1570719667764" duration="717000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/server/controllers/addbrewery-controller.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

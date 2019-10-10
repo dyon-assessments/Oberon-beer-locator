@@ -1,0 +1,92 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 400;
+}
+
+.sticky-header {
+  width: 100%;
+  background-image: url('https://www.pulsemaster.us/wp-content/uploads/2014/10/beer-header.jpg');
+  transition: 1s;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fixed-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  border-bottom: 2px solid #bbb;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.logo {
+  height: 80%;
+}
+
+.hamburger-icon {
+  height: 90%
+}
+
+.searchBar {
+  height: 60px;
+  width: 55%;
+  margin-right: 20px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.dropdown {
+  position: fixed;
+  border-right: 2px solid #bbb;
+  display: inline-block;
+  height: 0;
+  width: 400px;
+  background-color: #2DAD67;
+  z-index: 100;
+  margin-top: -2px;
+  transition: 1.2s
+}
+
+.container {
+  position: relative;
+  height: 300px;
+}
+
+.button-menu {
+  box-shadow: 0px 3px 0px 0px #1c6f3e;
+  background-color: #2DAD67;
+  border: 1px solid #18ab29;
+  cursor: pointer;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 14px #2f6627;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.button-menu:hover {
+  background-color: #36ce7b;
+}
+
+.button-menu:active {
+  position: relative;
+  top: 1px;
+}

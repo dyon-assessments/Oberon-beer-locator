@@ -1,0 +1,131 @@
+.results {
+  position: relative;
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.results li {
+  width: 90%;
+  background-color: #2bb976;
+  margin: auto auto 15px;
+  z-index: 1;
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #bbb;
+  border-top: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 25px
+}
+
+.results h1 {
+  background-color: unset;
+  color: white;
+  font-size: 45px;
+  font-family: monospace;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+.results h2 {
+  color: #36CE7B;
+  font-size: 25px;
+  display: inline-block;
+  padding: 5px;
+  font-family: monospace;
+  border: solid #36CE7B;
+  background-color: white;
+  height: 25px;
+}
+
+.address {
+  color: white;
+  font-size: 25px;
+  font-family: monospace;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto auto 25px;
+}
+
+.open-closed {
+  margin-left: 30px;
+}
+
+.open-closed img {
+  height: 50px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-title {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.beer-list-button {
+  box-shadow: 0px 3px 0px 0px #1c6f3e;
+  background-color: #2DAD67;
+  border: 1px solid #18ab29;
+  cursor: pointer;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0 1px 14px #2f6627;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.beer-list-button:hover {
+  background-color: #36ce7b;
+}
+
+.beer-list-button:active {
+  position: relative;
+  top: 1px;
+}
+
+.beer-list {
+  font-size: 25px;
+  font-family: monospace;
+  color: #2BB976;
+  background-color: white;
+  margin-top: 25px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #bbb;
+  border-top: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.beer-list * {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.dropdown-details-box {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: #2DAD67;
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #bbb;
+  border-top: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 18px
+}
+
+.beer-list *:hover .dropdown-details-box  {
+  display: block;
+}
