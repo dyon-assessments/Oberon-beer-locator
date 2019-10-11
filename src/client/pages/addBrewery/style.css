@@ -47,3 +47,11 @@
 .myButtonForm:hover {
   background-color:#36ce7b;
 }
+
+.titel{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 150px;
+  text-align: center;
+}

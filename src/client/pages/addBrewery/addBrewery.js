@@ -45,6 +45,7 @@ class addBrewery extends React.Component {
     return (
       <div>
         <Header/>
+        <h1 className={'titel'}>Voeg hier een bier brouwerij toe </h1>
         <div className={'form'}>
           <p>Naam</p>
           <input type="text" ref={this.name}/>
