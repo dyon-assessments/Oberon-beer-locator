@@ -1,4 +1,4 @@
-const distance = require('google-distance');
+const distance = require('google-distance-updated');
 const clientRedist = require('../models/redis-model');
 const productModel = require('../models/product-model');
 
