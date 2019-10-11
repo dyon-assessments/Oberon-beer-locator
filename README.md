@@ -8,7 +8,7 @@ It has also the option to see the beers they have in stock with the use of the &
 
 Hover over the beer names and you can see more detail about that beer&#39;.
 
-On the &#39;/addbrewery&#39; page you can add breweries I have not fixed validation and left out opening days
+On the &#39;/addbrewery&#39; page you can add breweries.
 
 The application using a Redis cache so when added a brewery its not instant available with queries you already searched for.
 
@@ -45,6 +45,7 @@ eslint,
 **compromises:**
 
 - used no redux
+- not adding opening days and beers in form for adding brewery
 - used MongoDB instead of SQL
 - used only local Redis caching
 - used no prop-types
