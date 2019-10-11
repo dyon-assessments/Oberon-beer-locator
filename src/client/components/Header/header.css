@@ -37,7 +37,7 @@
     height:0;
     margin-top:-2px;
     position:fixed;
-    transition:1.2s;
+    transition:0.8s;
     width:400px;
     z-index:100;
 }

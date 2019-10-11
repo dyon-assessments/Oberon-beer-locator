@@ -1,7 +1,6 @@
 import React from "react";
-import './app.css';
+import './header.css';
 import { FaBars } from 'react-icons/fa';
-import './app.css';
 import { Link } from 'react-router-dom';
 
 export default class Header extends React.Component {

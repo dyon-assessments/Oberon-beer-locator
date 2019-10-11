@@ -2,6 +2,8 @@ import React from 'react';
 import './results.css';
 import axios from 'axios';
 
+const stripchar = require('stripchar').StripChar;
+
 class Results extends React.Component {
   constructor(props) {
     super(props);
@@ -67,6 +69,12 @@ class Results extends React.Component {
           <div className={'head-title'}>
             <h1>{item.name}</h1>
             <h2>{`${item.distance}km`} </h2>
+            <div className={'google-maps'}>
+              <a href={`https://www.google.com/maps/search/?api=1&query=${stripchar.RSExceptUnsAlpNum(
+                item.name)}+${item.address}+${item.city}`} target="_blank" >
+                <img src={'http://pluspng.com/img-png/google-maps-png-google-maps-icon-1600.png'}/>
+              </a>
+            </div>
           </div>
           <div className={'address'}>
             <p>{item.address}</p>
@@ -82,7 +90,11 @@ class Results extends React.Component {
             </div>
           </div>
           <div key={index}
-               style={this.state.beerListToggleState[index] ? { display: 'flex' } : { display: 'none' }}
+               style={this.state.beerListToggleState[index] ? {
+                 height: '100px',
+                 opacity: '1',
+                 padding: '15px',
+               } : { height: '0', opacity: '0', padding: '0px' }}
                className={'beer-list'}>
             {beerContent}
           </div>
