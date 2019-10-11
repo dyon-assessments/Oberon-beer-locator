@@ -81,6 +81,7 @@
   font-size: 18px;
   padding: 10px;
   position: absolute;
+  z-index:100;
 }
 
 .google-maps img {
