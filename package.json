@@ -23,7 +23,7 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "express": "^4.17.1",
     "google-distance-updated": "^0.0.2",
-    "mongoose": "^5.7.4",
+    "mongoose": "^5.7.5",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-icons": "^3.7.0",
