@@ -19,7 +19,7 @@
   "author": "Dyon van Gerwen",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "express": "^4.17.1",
     "google-distance-updated": "^0.0.2",
